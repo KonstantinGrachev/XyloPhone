@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		651A4A8B2981CF6D006FA467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651A4A8A2981CF6D006FA467 /* AppDelegate.swift */; };
 		651A4A8D2981CF6D006FA467 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651A4A8C2981CF6D006FA467 /* SceneDelegate.swift */; };
-		651A4A8F2981CF6D006FA467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651A4A8E2981CF6D006FA467 /* ViewController.swift */; };
+		651A4A8F2981CF6D006FA467 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651A4A8E2981CF6D006FA467 /* MainViewController.swift */; };
 		651A4A942981CF6E006FA467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651A4A932981CF6E006FA467 /* Assets.xcassets */; };
 		651A4A972981CF6E006FA467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651A4A952981CF6E006FA467 /* LaunchScreen.storyboard */; };
+		65C9C2712982DEA3004EE67A /* SoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C9C2702982DEA3004EE67A /* SoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		651A4A872981CF6D006FA467 /* XyloPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XyloPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		651A4A8A2981CF6D006FA467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		651A4A8C2981CF6D006FA467 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		651A4A8E2981CF6D006FA467 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		651A4A8E2981CF6D006FA467 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		651A4A932981CF6E006FA467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		651A4A962981CF6E006FA467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		651A4A982981CF6E006FA467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C9C2702982DEA3004EE67A /* SoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				651A4A9F2981CFD9006FA467 /* Application */,
-				651A4A8E2981CF6D006FA467 /* ViewController.swift */,
+				651A4A8E2981CF6D006FA467 /* MainViewController.swift */,
+				65C9C2702982DEA3004EE67A /* SoundButton.swift */,
 				651A4A9E2981CF97006FA467 /* Resources */,
 			);
 			path = XyloPhone;
@@ -150,9 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				651A4A8F2981CF6D006FA467 /* ViewController.swift in Sources */,
+				651A4A8F2981CF6D006FA467 /* MainViewController.swift in Sources */,
 				651A4A8B2981CF6D006FA467 /* AppDelegate.swift in Sources */,
 				651A4A8D2981CF6D006FA467 /* SceneDelegate.swift in Sources */,
+				65C9C2712982DEA3004EE67A /* SoundButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
