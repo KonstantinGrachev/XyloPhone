@@ -16,6 +16,8 @@ final class SoundButton: UIButton {
     convenience init(color: UIColor, noteName: String) {
         self.init(type: .system)
         self.backgroundColor = color
+        self.layer.cornerRadius = 10
+        self.tintColor = .white
         self.setTitle(noteName, for: .normal)
     }
     
