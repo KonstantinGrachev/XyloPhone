@@ -66,6 +66,7 @@ final class MainViewController: UIViewController {
     @objc private func soundButtonPressed(_ sender: UIButton) {
         guard let noteName = sender.currentTitle else { return }
         playSound(noteName)
+        animateButton(button: sender)
     }
     
     private func playSound(_ note: String) {
@@ -79,6 +80,16 @@ final class MainViewController: UIViewController {
             player.play()
         } catch let error {
             print(error.localizedDescription)
+        }
+    }
+    
+    private func animateButton(button: UIButton) {
+        UIView.animate(withDuration: 0.1, delay: .zero) {
+            button.layer.opacity = 0.5
+        } completion: { _ in
+            UIView.animate(withDuration: 0.1, delay: .zero) {
+                button.layer.opacity = 1
+            }
         }
     }
 }
